@@ -920,3 +920,74 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* Policy */
+
+.policy-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 15px;
+
+  @media (min-width: 768px) {
+    gap: 40px;
+  }
+}
+
+.policy-link {
+  color: var(--light-color);
+  transition: color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+
+/* Policy page */
+
+.privacy-policy {
+  padding: 20px 0;
+}
+
+.privacy-main-title {
+  color: var(--christmas-red);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.privacy-title {
+  color: var(--dark-color);
+  margin-bottom: 10px;
+}
+
+.privacy-text {
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.privacy-text:last-child {
+  margin-bottom: 20px;
+}
+
+.privacy-accent {
+  color: var(--christmas-red);
+}
+
+.cookie-policy {
+  padding: 20px 0;
+}
+.cookie-main-title {
+  color: var(--christmas-red);
+  margin-bottom: 30px;
+  text-align: center;
+}
+.cookie-title {
+  color: var(--dark-color);
+  margin-bottom: 10px;
+}
+.cookie-text {
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+.cookie-accent {
+  color: var(--christmas-red);
+}

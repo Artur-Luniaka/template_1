@@ -46,62 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Contact modal
-  const contactLinks = document.querySelectorAll('a[href="contacts.html"]');
-  const contactModal = document.getElementById("contactModal");
-  const closeModal = document.querySelector(".close-modal");
-  const contactForm = document.getElementById("contactForm");
-
-  contactLinks.forEach((link) => {
-    link.addEventListener("click", function (e) {
-      // Only show modal if we're not already on the contacts page
-      if (!window.location.href.includes("contacts.html")) {
-        e.preventDefault();
-        if (contactModal) {
-          contactModal.classList.add("show");
-        }
-      }
-    });
-  });
-
-  if (closeModal) {
-    closeModal.addEventListener("click", function () {
-      contactModal.classList.remove("show");
-    });
-  }
-
-  // Close modal when clicking outside
-  window.addEventListener("click", function (e) {
-    if (e.target === contactModal) {
-      contactModal.classList.remove("show");
-    }
-  });
-
-  // Contact form submission
-  if (contactForm) {
-    contactForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-
-      // Get form data
-      const name = contactForm.querySelector("#name").value;
-      const email = contactForm.querySelector("#email").value;
-      const message = contactForm.querySelector("#message").value;
-
-      // Simulate form submission
-      alert(
-        `Thank you, ${name}! Your message has been sent. We'll get back to you at ${email} as soon as possible.`
-      );
-
-      // Reset form
-      contactForm.reset();
-
-      // Close modal
-      if (contactModal) {
-        contactModal.classList.remove("show");
-      }
-    });
-  }
-
   // Page contact form
   const pageContactForm = document.getElementById("pageContactForm");
 

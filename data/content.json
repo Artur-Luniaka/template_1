@@ -2,7 +2,7 @@
   "global": {
     ".logo a": "RED BALL CHRISTMAS",
     ".domain-name a": "DOMAIN.COM",
-    ".footer-logo a": "RED BALL CHRISTMAS",
+    ".footer-logo a": "DOMAIN.COM",
     ".footer-contact": {
       "html": "<p>Email: <a href=\"mailto:contact@domain.com\">contact@domain.com</a></p><p>Phone: <a href=\"tel:+61293744000\">+61 2 9374 4000</a></p><p>Address: 48 Liverpool St, Sydney NSW 2000, Australia</p>"
     },
