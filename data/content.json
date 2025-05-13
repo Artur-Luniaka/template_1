@@ -6,7 +6,7 @@
     ".footer-contact": {
       "html": "<p>Email: <a href=\"mailto:contact@domain.com\">contact@domain.com</a></p><p>Phone: <a href=\"tel:+61293744000\">+61 2 9374 4000</a></p><p>Address: 48 Liverpool St, Sydney NSW 2000, Australia</p>"
     },
-    ".footer-bottom p": "&copy; 2025 Red Ball Christmas Love Game. All rights reserved."
+    ".footer-bottom p": "&copy; 2025 Domain.com All rights reserved."
   },
   "pages": {
     "index.html": {

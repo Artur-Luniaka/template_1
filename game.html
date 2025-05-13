@@ -198,58 +198,12 @@
   </head>
   <body>
     <div class="game-container">
-      <div class="game-message">
-        <h1>Red Ball Christmas Love Game</h1>
-        <p>
-          This is a placeholder for the actual game. In a real implementation,
-          the game would be embedded here.
-        </p>
-      </div>
-
-      <div class="game-placeholder">
-        <div class="platform platform-1"></div>
-        <div class="platform platform-2"></div>
-        <div class="platform platform-3"></div>
-        <div class="present present-1"></div>
-        <div class="present present-2"></div>
-        <div class="present present-3"></div>
-        <div class="red-ball"></div>
-      </div>
-
-      <button class="start-button">Start Game</button>
+      <iframe
+        src="https://html5.gamemonetize.co/626cqutdhz4dhp5dgyebv4vkw5wmanch/"
+        width="100%"
+        height="100%"
+        scrolling="none"
+      ></iframe>
     </div>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        // Create snowflakes
-        createSnowflakes();
-
-        // Start button click event
-        const startButton = document.querySelector(".start-button");
-        startButton.addEventListener("click", function () {
-          alert(
-            "This is a placeholder for the actual game. In a real implementation, the game would start here."
-          );
-        });
-      });
-
-      // Create snowflakes
-      function createSnowflakes() {
-        const gameContainer = document.querySelector(".game-placeholder");
-        const snowflakeCount = 30;
-
-        for (let i = 0; i < snowflakeCount; i++) {
-          const snowflake = document.createElement("div");
-          snowflake.className = "snowflake";
-          snowflake.innerHTML = "❄";
-          snowflake.style.left = `${Math.random() * 100}%`;
-          snowflake.style.opacity = Math.random();
-          snowflake.style.animationDuration = `${Math.random() * 5 + 5}s`;
-          snowflake.style.animationDelay = `${Math.random() * 5}s`;
-
-          gameContainer.appendChild(snowflake);
-        }
-      }
-    </script>
   </body>
 </html>
