@@ -175,7 +175,8 @@ nav {
 
 .hero-image {
   width: 560px;
-  object-fit: contain;
+  height: 350px;
+  object-fit: cover;
   object-position: center;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
