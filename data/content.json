@@ -9,7 +9,7 @@
     ".footer-bottom p": "&copy; 2025 Domain.com All rights reserved."
   },
   "pages": {
-    "index.html": {
+    "./": {
       "title": "Red Ball Christmas Love Game - Roll Through Holiday Adventure",
       "description": "Play Red Ball Christmas Love Game - a festive adventure where you roll, jump and solve puzzles in a winter wonderland. Perfect holiday fun for all ages!",
       "content": {
